@@ -5,7 +5,7 @@
 
 ### pre work
 apt-get update
-sudo apt-get install --yes vim net-tools
+apt-get install --yes vim net-tools
 
 ########################################################
 #### Installation Starts ######
