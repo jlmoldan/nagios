@@ -23,3 +23,6 @@ sh /nagios/naginstall.sh
 Issues:  have to respond to questions....grrr...
 
 1 - no mail, set password
+
+
+docker run -it -d -p 4000:80 cc4c95d25e74
