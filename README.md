@@ -6,8 +6,11 @@ apt-get update
 apt-get install git -y 
 
 mkdir git
+
 cd git
+
 git clone https://github.com/jlmoldan/nagios.git
+
 sh /nagios/naginstall.sh
 
 have to respond....grrr...
