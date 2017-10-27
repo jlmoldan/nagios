@@ -71,7 +71,6 @@ welcome_msg
                                 sleep 2
                                 IP=`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
                                 echo -e "\n\tNow Nagios is ready to be used via: http://$IP/nagios3"
-                                echo -e '\n\n\033[31m\tInstallation of Nagios Core and the Nagios-Plugins have been finished!\n\tThanks for using this Script!\n\n\t\033[32mLeave your feedback at ravi@r3infotech.com\033[m'
                                 exit 0
 
 else
